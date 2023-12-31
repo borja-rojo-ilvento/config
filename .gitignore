@@ -1,0 +1,14 @@
+.gsd-keyboard.settings-ported
+dconf/
+discord/
+GNOME-xdg-terminals.list
+evolution/
+gnome-initial-setup-done
+gtk-3.0/
+ibus/
+obsidian/
+nvim/
+pulse/
+user-dirs.dirs
+user-dirs.locale
+xdg-terminals.list
