@@ -1,0 +1,15 @@
+2024/01/18-20:31:44.209 2674 Reusing MANIFEST /home/brojo/.config/discord/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/01/18-20:31:44.209 2674 Recovering log #4
+2024/01/18-20:31:44.209 2674 Reusing old log /home/brojo/.config/discord/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000004.log 
+2024/01/18-20:48:57.994 15e4 Level-0 table #8: started
+2024/01/18-20:48:57.998 15e4 Level-0 table #8: 36027 bytes OK
+2024/01/18-20:48:58.002 15e4 Delete type=0 #4
+2024/01/18-20:48:58.002 15e4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2024/01/18-20:48:58.002 15e4 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\x90\x93\x86\xf5\xd1xB\x00\x03\x00\x00\x00\x00\x00\x00\x18@' @ 261 : 1
+2024/01/18-20:48:58.002 15e4 Compacting 1@1 + 1@2 files
+2024/01/18-20:48:58.006 15e4 Generated table #9@1: 41 keys, 1111 bytes
+2024/01/18-20:48:58.006 15e4 Compacted 1@1 + 1@2 files => 1111 bytes
+2024/01/18-20:48:58.010 15e4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/01/18-20:48:58.010 15e4 Delete type=2 #8
+2024/01/18-20:48:58.010 15e4 Delete type=2 #5
+2024/01/18-20:48:58.010 15e4 Manual compaction at level-1 from '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\x90\x93\x86\xf5\xd1xB\x00\x03\x00\x00\x00\x00\x00\x00\x18@' @ 261 : 1 .. (end); will stop at (end)

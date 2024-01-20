@@ -1,0 +1,16 @@
+2024/01/20-17:42:35.667 bef Reusing MANIFEST /home/brojo/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/01/20-17:42:35.667 bef Recovering log #339
+2024/01/20-17:42:35.674 bef Level-0 table #342: started
+2024/01/20-17:42:35.684 bef Level-0 table #342: 734788 bytes OK
+2024/01/20-17:42:35.688 bef Delete type=0 #339
+2024/01/20-17:42:35.689 bcc Compacting 4@0 + 2@1 files
+2024/01/20-17:42:35.710 bcc Generated table #344@0: 33 keys, 2783804 bytes
+2024/01/20-17:42:35.716 bcc Generated table #345@0: 105 keys, 67398 bytes
+2024/01/20-17:42:35.716 bcc Compacted 4@0 + 2@1 files => 2851202 bytes
+2024/01/20-17:42:35.724 bcc compacted to: files[ 0 2 1 0 0 0 0 ]
+2024/01/20-17:42:35.724 bcc Delete type=2 #336
+2024/01/20-17:42:35.724 bcc Delete type=2 #334
+2024/01/20-17:42:35.724 bcc Delete type=2 #342
+2024/01/20-17:42:35.724 bcc Delete type=2 #338
+2024/01/20-17:42:35.724 bcc Delete type=2 #340
+2024/01/20-17:42:35.724 bcc Delete type=2 #333
