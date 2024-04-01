@@ -1,9 +1,0 @@
-2024/01/20-17:43:26.668 d90 Reusing MANIFEST /home/brojo/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2024/01/20-17:43:26.668 d90 Recovering log #343
-2024/01/20-17:43:26.669 d90 Reusing old log /home/brojo/.config/discord/Local Storage/leveldb/000343.log 
-2024/01/20-17:48:27.109 df6 Level-0 table #348: started
-2024/01/20-17:48:27.120 df6 Level-0 table #348: 21511 bytes OK
-2024/01/20-17:48:27.124 df6 Delete type=0 #343
-2024/01/20-18:11:27.110 2729 Level-0 table #350: started
-2024/01/20-18:11:27.122 2729 Level-0 table #350: 13702 bytes OK
-2024/01/20-18:11:27.126 2729 Delete type=0 #347
