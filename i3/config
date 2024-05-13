@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+font pango:monospace 
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -111,10 +111,10 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $web "1:Web"
-set $discord "2:Discord"
-set $terminal "3:Terminal"
-set $ws4 "4"
+set $web "1:&#xf269;"
+set $discord "2:&#xf392;"
+set $terminal "3:&#xf120;"
+set $ws4 "4:"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
@@ -183,11 +183,26 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
+        i3bar_command i3bar --transparency
+        font pango:MesloLGS NF 10
         status_command i3status
         strip_workspace_numbers yes
+        workspace_min_width 30 
 #        mode hide
         position top
         modifier $mod
+#        i3bar_command i3bar --transparency
+        colors {
+                background #28282800
+                statusline #ffffff
+                separator #666666
+
+                focused_workspace  #4c7899 #285577 #ffffff
+                active_workspace   #333333 #5f676a #ffffff
+                inactive_workspace #00000000 #222222 #888888
+                urgent_workspace   #2f343a #900000 #ffffff
+                binding_mode       #2f343a #900000 #ffffff
+        }
 }
 
 # Custom Stuff
